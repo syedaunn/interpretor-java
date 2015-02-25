@@ -1,6 +1,6 @@
 #Class - Interpreter
 ##Author: Aunn Raza | BSCS2B | 01248
-##Github: http://www.github.com/syedaunn/interpreter-java
+
 
 Interpreter Class is a generic declarative language interpreter which caters three data types i.e. String, Integer and Floating points. It reads the given code file line by line and executes accordingly.
 
