@@ -5,9 +5,13 @@
 Interpreter Class is a generic declarative language interpreter which caters three data types i.e. String, Integer and Floating points. It reads the given code file line by line and executes accordingly.
 
 Currently, Interpreter Class performs three type of operations that are
+
 •	Variable Declaration:	Variables can be declared by the “LET” command. For example “let x =2”, “Let str=”HelloWorld” “
+
 •	Printing Output:		User can print a String or variable to standard output stream by using the “PRINT” command. For example “print x”, “print ‘Hey, This is Print!’ ”
+
 •	Arithmetic Operations	User can perform arthimetic operations on variables and constants just line a math equation and assign its value to any variable. Operations follows the rules as does JAVA i.e. String addition will cause two strings to concatenate. For example “x= y+2*5”
+
 
 ##Error Handling
 
@@ -18,6 +22,7 @@ Upon any invalid command or erroneous operation, Interpreter class throws except
 •	Variable name should start with alphabets only
 •	Each command should be on new line
 •	One declaration per line only
+
 
 ##Testing (JUnit Test Cases)
  
